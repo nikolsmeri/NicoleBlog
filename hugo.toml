@@ -1,0 +1,31 @@
+baseURL = 'https://nikolsmeri.github.io/NicoleBlog/'
+languageCode = 'zh-cn'
+title = "Nicole's Blog"
+theme = 'PaperMod'
+
+[params]
+  author = "Nicole"
+  description = "Nicole 的个人博客"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+
+[menu]
+  [[menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight = 5
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 10
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 20
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
