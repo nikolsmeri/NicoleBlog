@@ -148,7 +148,7 @@ function renderPost() {
   if (contentEl) contentEl.innerHTML = post.content;
 }
 
-// Initialise based on current page
+// Initialize based on current page
 if (document.getElementById("posts-list")) {
   renderPostList();
 } else {
